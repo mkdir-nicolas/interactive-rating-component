@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link
+      rel="stylesheet"
+      href="./styles/desktop.css"
+      media="(min-width:768px)"
+    />
+    <title>Frontend Mentor | Interactive rating component</title>
+  </head>
+  <body>
+    <h1 class="sr-only">Frontend Mentor | Interactive rating component</h1>
+    <main id="main">
+      <form id="rating" action="" method="post" class="card">
+        <div class="star"><span></span></div>
+        <h2>How did we do?</h2>
+        <p>
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
+        <ul>
+          <li>
+            <input type="radio" name="score" id="score-1" value="1" />
+            <label for="score-1">1</label>
+          </li>
+          <li>
+            <input type="radio" name="score" id="score-2" value="2" />
+            <label for="score-2">2</label>
+          </li>
+          <li>
+            <input type="radio" name="score" id="score-3" value="3" />
+            <label for="score-3">3</label>
+          </li>
+          <li>
+            <input type="radio" name="score" id="score-4" value="4" />
+            <label for="score-4">4</label>
+          </li>
+          <li>
+            <input type="radio" name="score" id="score-5" value="5" />
+            <label for="score-5">5</label>
+          </li>
+        </ul>
+        <button type="submit" id="btnSubmitScore">Submit</button>
+      </form>
+    </main>
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://www.github.com/mkdir-nicolas">Nicolas</a>.
+    </footer>
+    <script src="./src/main.js"></script>
+  </body>
+</html>

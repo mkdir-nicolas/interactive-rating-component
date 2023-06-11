@@ -1,0 +1,124 @@
+@import url(./styles.css);
+.sr-only {
+  width: 0;
+  height: 0;
+  position: absolute;
+  overflow: hidden;
+}
+body {
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  background-color: var(--very-dark-blue);
+}
+main {
+  background-color: var(--dark-blue);
+  border-radius: 16px;
+  padding: 1.75rem 1.375rem;
+  width: 20.25rem;
+  height: 22.75rem;
+  background: radial-gradient(
+    circle closest-corner at 50% 0%,
+    hsl(213, 19%, 18%) 0%,
+    hsl(213, 19%, 14%) 100%
+  );
+}
+.star {
+  content: url(../images/icon-star.svg);
+  background-color: var(--dark-blue);
+  padding: 0.688rem;
+  border-radius: 50%;
+}
+form h2 {
+  color: var(--white);
+  font-size: 1.5rem;
+  margin-block: 1rem;
+  font-weight: 700;
+}
+
+form p {
+  font-weight: 400;
+  font-size: 0.838rem;
+  line-height: 1.313rem;
+  color: var(--light-grey);
+  letter-spacing: 0.019rem;
+}
+
+form ul {
+  display: flex;
+  margin-block: 1.75rem;
+  justify-content: space-between;
+}
+form ul li label {
+  cursor: pointer;
+  display: grid;
+  place-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  color: var(--white);
+  background-color: var(--dark-blue);
+  border-radius: 50%;
+}
+form button {
+  cursor: pointer;
+  border-style: none;
+  width: 100%;
+  background-color: var(--orange);
+  color: var(--white);
+  text-transform: uppercase;
+  font-size: 0.938rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  border-radius: 3rem;
+  padding-block: 0.8rem;
+}
+
+form input[type="radio"]:checked + label {
+  background-color: var(--orange);
+}
+
+form ul li label:hover {
+  background-color: var(--medium-grey);
+}
+section {
+  text-align: center;
+}
+section img {
+  margin-block-start: 0.5rem;
+  width: 8.875rem;
+}
+
+section h3 {
+  color: var(--orange);
+  font-weight: 400;
+  font-size: 0.875rem;
+  background-color: var(--dark-blue);
+  border-radius: 2rem;
+  padding-block: 0.5rem;
+  padding-inline: 0.7rem;
+  margin: 1.25rem auto;
+  inline-size: fit-content;
+}
+section h2 {
+  color: var(--white);
+  margin-block-start: 1.5rem;
+  margin-block-end: 0.5rem;
+}
+section p {
+  color: var(--light-grey);
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  margin-block: 1.125rem;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 10%;
+  right: 50%;
+  transform: translate(50%, 50%);
+  color: var(--white);
+  font-size: 0.7rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

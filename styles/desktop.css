@@ -1,0 +1,58 @@
+main {
+  width: 25.938rem;
+  height: 25.938rem;
+  border-radius: 2rem;
+  padding: 2.125rem;
+}
+
+.star {
+  padding: 1rem;
+}
+form h2 {
+  margin-block-start: 2rem;
+  margin-block-end: 0;
+  font-size: 1.75rem;
+  letter-spacing: -0.025rem;
+}
+form p {
+  margin-block-start: 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.025rem;
+}
+
+form ul li label {
+  width: 3.125rem;
+  height: 3.125rem;
+}
+
+form ul {
+  max-width: 21.125rem;
+}
+form button {
+  margin-block: 0.25rem;
+  padding: 0.875rem;
+  max-width: 21.188rem;
+  letter-spacing: 0.125rem;
+}
+
+section img {
+  width: 10.125rem;
+  margin-block-start: 0.875rem;
+}
+section h3 {
+  min-width: 11.875rem;
+  margin: 1.563rem auto;
+  font-size: 0.938rem;
+}
+section h2 {
+  margin-block-start: 2rem;
+  margin-block-end: 0;
+  font-size: 1.75rem;
+}
+section p {
+  margin-block: 0.563rem;
+  font-size: 0.875rem;
+  letter-spacing: 0.034rem;
+  line-height: 1.5rem;
+}
